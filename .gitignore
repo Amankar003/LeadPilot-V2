@@ -1,0 +1,36 @@
+# Local credentials
+.env
+
+# Local Databases
+*.db
+*.db-journal
+
+# Logs & Debug Output
+logs/
+debug_import.txt
+startup_error.log
+
+# Caching & compiled code
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+
+# Temp & user data uploads
+data/uploads/
+data/exports/
+temp/
+
+scratch/
+scratch_test.py
+test_email_quality.py
+test_results.json
+email_quality_test_results.json
+
+.env
+.env.*
+!.env.example
